@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aoi">#FAFAFA</color>
+    <color name="blue">#e91e63ff</color>
+    <color name="blue_light">#f06292ff</color>
+
+    <color name="clear">#4DB6AC</color>
+    <color name="clear_light">#B2DFDB</color>
+
+    <color name="grey">#212121</color>
+    <color name="grey_light">#9E9E9E</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_dark">#ffe7e7e7</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="product_list_item_bg">#80e5ffff</color>
+    <color name="view_divider_color">#212121</color>
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorPrimaryLight">#80CBC4</color>
+
+
+    <color name="Primary" >#009688</color>
+    <color name="PrimaryDark" >#00796B</color>
+    <color name="Accent" >#00796B</color>
+    <color name="WindowBackground" >#E3F2FD</color>
+    <color name="navigatonBar">#009688</color>
+
+
+</resources>

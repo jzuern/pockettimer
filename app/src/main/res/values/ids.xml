@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="robotoTextView1" type="id"/>
+    <item name="robotoTextView2" type="id"/>
+    <item name="button1" type="id"/>
+    <item name="imagebutton1" type="id"/>
+    <item name="toolbar_actionbar" type="id"/>
+
+    <!--
+        This ID's xml resource is needed to provide the View's IDs inside TableRow in NewWorkoutActivity dynamically
+   -->
+
+
+</resources>

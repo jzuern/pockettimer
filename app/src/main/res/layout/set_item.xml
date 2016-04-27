@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="0"
+    android:layout_height="200px" >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:layout_height="wrap_content" >
+
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:id="@+id/tvName"
+        android:text="@string/Name"
+        app:typeface="roboto_slab_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/grey"
+        android:layout_gravity="center_vertical" />
+
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:id="@+id/tvDuration"
+        android:text="@string/length"
+        app:typeface="roboto_slab_regular"
+        android:textColor="@color/grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/tvReps"
+            android:text="@string/round"
+            android:textColor="@color/grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:typeface="roboto_slab_regular"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:layout_height="wrap_content" >
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/tvLengthTotal"
+            android:text="Total length"
+            app:typeface="roboto_slab_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/grey"
+            android:layout_gravity="center_vertical" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

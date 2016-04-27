@@ -1,0 +1,147 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:custom="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:background="@color/grey"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent" >
+
+
+<RelativeLayout android:layout_weight="1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+
+    <com.pockettimer.view.CircleView
+        android:id="@+id/circle1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:circleColor="@color/Primary"
+        custom:circleLabel="@string/button_loadWorkout"
+        android:onClick="loadWorkout"
+        custom:labelColor="@color/grey"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1" />
+
+
+    <com.pockettimer.view.CircleView
+        android:id="@+id/circle2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        custom:circleColor="@color/white_dark"
+        custom:circleLabel="@string/button_loadWorkout"
+        android:onClick="loadWorkout"
+        custom:labelColor="@color/grey"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1" />
+
+
+    <com.pockettimer.view.CircleView
+        android:id="@+id/circle3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        custom:circleColor="@color/Primary"
+        custom:circleLabel="@string/button_loadWorkout"
+        android:onClick="loadWorkout"
+        custom:labelColor="@color/grey"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1" />
+
+
+    <com.pockettimer.view.CircleView
+        android:id="@+id/circle4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        custom:circleColor="@color/white_dark"
+        custom:circleLabel="@string/button_loadWorkout"
+        android:onClick="loadWorkout"
+        custom:labelColor="@color/grey"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1" />
+
+<com.pockettimer.view.CircleWithTextView
+    android:id="@+id/custView2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="40dp"
+    custom:circleColor="@color/Primary"
+    custom:circleLabel="@string/button_loadWorkout"
+    android:onClick="loadWorkout"
+    custom:labelColor="@color/grey"
+    android:layout_gravity="bottom|center_horizontal"
+    android:layout_weight="1" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_weight="1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+
+    <com.pockettimer.view.CircleView
+        android:id="@+id/circle11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:circleColor="@color/Primary"
+        custom:circleLabel="@string/button_loadWorkout"
+        android:onClick="loadWorkout"
+        custom:labelColor="@color/grey"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1" />
+
+
+    <com.pockettimer.view.CircleView
+        android:id="@+id/circle21"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        custom:circleColor="@color/white_dark"
+        custom:circleLabel="@string/button_loadWorkout"
+        android:onClick="loadWorkout"
+        custom:labelColor="@color/grey"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1" />
+
+
+    <com.pockettimer.view.CircleView
+        android:id="@+id/circle31"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        custom:circleColor="@color/Primary"
+        custom:circleLabel="@string/button_loadWorkout"
+        android:onClick="loadWorkout"
+        custom:labelColor="@color/grey"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1" />
+
+
+    <com.pockettimer.view.CircleView
+        android:id="@+id/circle41"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        custom:circleColor="@color/white_dark"
+        custom:circleLabel="@string/button_loadWorkout"
+        android:onClick="loadWorkout"
+        custom:labelColor="@color/grey"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1" />
+
+<com.pockettimer.view.CircleWithTextView
+    android:id="@+id/custView"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_margin="40dp"
+    custom:circleColor="@color/Primary"
+    custom:circleLabel="@string/button_newWorkout"
+    android:onClick="startNewWorkout"
+    custom:labelColor="@color/grey"
+    android:layout_gravity="center"
+    android:layout_weight="1" />
+
+</RelativeLayout>
+</LinearLayout>

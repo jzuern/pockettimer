@@ -1,0 +1,10 @@
+<!--suppress CheckTagEmptyBody -->
+<resources>
+
+    <declare-styleable name="LovelyView">
+        <attr name="circleColor" format="color" value="#ffe7e7e7"/>
+        <attr name="circleLabel" format="string"></attr>
+        <attr name="labelColor" format="color" value="#ffe7e7e7"></attr>
+    </declare-styleable>
+
+</resources>

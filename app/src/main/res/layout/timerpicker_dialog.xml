@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/minutes"
+            android:id="@+id/textViewMin"
+            android:layout_gravity="center_vertical" />
+
+    <NumberPicker
+        android:id="@+id/numberPickerMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+
+        <NumberPicker
+            android:id="@+id/numberPickerSeconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/seconds"
+            android:id="@+id/textViewSec"
+            android:layout_gravity="center_vertical" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <com.devspark.robototextview.widget.RobotoButton
+            android:id="@+id/buttonSet"
+            android:layout_width="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+
+        <com.devspark.robototextview.widget.RobotoButton
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_height="wrap_content"
+            android:text="@string/Set"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

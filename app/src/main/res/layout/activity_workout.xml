@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_dark">
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Set"
+        app:typeface="roboto_slab_regular"
+        android:id="@+id/tv_setNo"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <com.pockettimer.view.WorkoutTopView
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context="com.pockettimer.WorkoutActivity"
+            android:id="@+id/workoutView1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content">
+
+            <com.devspark.robototextview.widget.RobotoButton
+                android:layout_width="0dp"
+                android:background="@color/PrimaryDark"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:id="@+id/btn_restart"
+                android:onClick="restartSet"
+                android:text="@string/restartset"/>
+
+            <com.devspark.robototextview.widget.RobotoButton
+                android:layout_width="0dp"
+                android:background="@color/PrimaryDark"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:id="@+id/btn_next"
+                android:onClick="nextSet"
+                android:text="@string/nextset"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:id="@+id/btn_pause"
+                android:onClick="setPause"
+                android:text="@string/pause"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:id="@+id/btn_stop"
+                android:onClick="setStop"
+                android:text="@string/stop"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.devspark.robototextview.widget.RobotoTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/setname"
+        app:typeface="roboto_slab_regular"
+        android:id="@+id/tv_currSetName"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:textColor="@color/grey"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textIsSelectable="true" />
+
+    <com.devspark.robototextview.widget.RobotoTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/round"
+        app:typeface="roboto_slab_regular"
+        android:id="@+id/tv_currRound"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/grey"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textIsSelectable="true" />
+
+    <com.devspark.robototextview.widget.RobotoTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/time"
+        app:typeface="roboto_slab_regular"
+        android:id="@+id/tv_remainingRoundTime"
+        android:layout_gravity="center"
+        android:textSize="80sp"
+        android:textColor="@color/grey"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:textIsSelectable="true" />
+
+    <com.devspark.robototextview.widget.RobotoTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/time"
+        app:typeface="roboto_slab_regular"
+        android:id="@+id/tv_remainingSetTime"
+        android:layout_gravity="center"
+        android:textSize="60sp"
+        android:textColor="@color/grey"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:textIsSelectable="true" />
+    </RelativeLayout>
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_dark">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:layout_height="wrap_content">
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            app:typeface="roboto_slab_regular"
+            android:textColor="@color/grey"
+            android:text="@string/textAbout1"
+            android:id="@+id/textView1" />
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/mailText"
+            android:textSize="20sp"
+            app:typeface="roboto_slab_regular"
+            android:layout_width="match_parent"
+            android:textColor="@color/grey"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:text="@string/mail"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            app:typeface="roboto_slab_regular"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:text="@string/textPRO"
+            android:id="@+id/textPRO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content">
+
+        <com.devspark.robototextview.widget.RobotoButton
+            android:layout_width="match_parent"
+            android:background="@color/PrimaryDark"
+            android:layout_height="70dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25sp"
+            android:id="@+id/btn_PRO"
+            android:onClick="openPro"
+            android:text="@string/getPRO" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

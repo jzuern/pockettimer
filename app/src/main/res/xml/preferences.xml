@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    android:key="preference_screen">
+
+    <PreferenceCategory
+        android:title="Behaviour"
+        android:key="pref_key_customization_settings">
+
+        <CheckBoxPreference android:title="Keep screen on"
+            android:defaultValue="false"
+            android:summary="Keep screen on during a running Workout."
+            android:key="keepSecreenOn" />
+
+
+        <CheckBoxPreference android:title="Use notification icon"
+            android:defaultValue="false"
+            android:summary="Notifies you of a running Workout."
+            android:key="notificationIcon" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Sounds"
+        android:key="pref_key_customization_settings">
+
+
+        <CheckBoxPreference android:title="Vibration"
+            android:defaultValue="false"
+            android:summary="Vibrate phone when Set or Round has ended."
+            android:key="vibrate" />
+
+
+        <com.pockettimer.classes.SeekBarPreference2
+            android:key="setPauseLength2"
+            android:title="Pause between sets"
+            android:summary=""
+            android:defaultValue="0"
+            android:max="30"
+            robobunny:min="0"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight=" seconds"/>
+
+        <com.pockettimer.classes.SeekBarPreference2
+            android:key="roundPauseLength2"
+            android:title="Pause between rounds"
+            android:summary=""
+            android:defaultValue="0"
+            android:max="30"
+            robobunny:min="0"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight=" seconds"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

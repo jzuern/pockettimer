@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp">
+
+
+    <TextView
+            android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+            android:id="@+id/notificationText1"
+            android:textSize="15sp"
+            android:text="@string/notificationtext"
+            android:textColor="@color/grey_light"
+            android:gravity="center"
+            android:layout_centerVertical="true" />
+
+
+</LinearLayout>
