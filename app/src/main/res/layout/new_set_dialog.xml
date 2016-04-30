@@ -6,6 +6,15 @@
     android:layout_height="fill_parent">
 
 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new Set"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:singleLine="true" />
 
     <com.devspark.robototextview.widget.RobotoEditText
         android:id="@+id/setname"
