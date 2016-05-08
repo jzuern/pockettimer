@@ -39,15 +39,15 @@ public class AboutActivity extends AppCompatActivity {
     }
 
 
-
-public void openPro(View view){
-    final String appPackageName = "com.pockettimerpro"; // getPackageName() from Context or Activity object
-    try {
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
-    } catch (android.content.ActivityNotFoundException anfe) {
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
-    }
-}
+//
+//public void openPro(View view){
+//    final String appPackageName = "com.pockettimerpro"; // getPackageName() from Context or Activity object
+//    try {
+//        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+//    } catch (android.content.ActivityNotFoundException anfe) {
+//        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+//    }
+//}
 
     public void openSettings(){
         Intent intent = new Intent(this, SettingsActivity.class);

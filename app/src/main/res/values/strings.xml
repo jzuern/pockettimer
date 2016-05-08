@@ -14,7 +14,7 @@
     <string name="textAbout1">A quick thanks to you for downloading Pocket Timer. I really appreciate any feedback from you, so that Pocket Timer continues to improve and adjust to your needs. To request features, report bugs or just to give me bit of feedback, you can contact me at:</string>
     <string name="mail">pockettimer@gmail.com</string>
     <string name="textAbout2">Have fun working out!</string>
-    <string name="textPRO">If you like Pocket Timer and would like to support its developer, you can buy Pocket Timer Pro. It has the same features as the free version, but by buying the PRO version you can show your support and enable me to spend more time improving Pocket Timer!</string>
+    <!--<string name="textPRO">If you like Pocket Timer and would like to support its developer, you can buy Pocket Timer Pro. It has the same features as the free version, but by buying the PRO version you can show your support and enable me to spend more time improving Pocket Timer!</string>-->
     <string name="time">00:00</string>
     <string name="time_set">Set</string>
     <string name="cancel">Cancel</string>

@@ -32,34 +32,34 @@
             android:text="@string/mail"
             android:layout_gravity="center_horizontal"
             android:gravity="center" />
-        <com.devspark.robototextview.widget.RobotoTextView
-            android:layout_width="match_parent"
-            android:textSize="16sp"
-            app:typeface="roboto_slab_regular"
-            android:layout_height="wrap_content"
-            android:textColor="@color/grey"
-            android:text="@string/textPRO"
-            android:id="@+id/textPRO" />
+        <!--<com.devspark.robototextview.widget.RobotoTextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:textSize="16sp"-->
+            <!--app:typeface="roboto_slab_regular"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/grey"-->
+            <!--android:text="@string/textPRO"-->
+            <!--android:id="@+id/textPRO" />-->
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:layout_height="wrap_content">
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_height="wrap_content">-->
 
-        <com.devspark.robototextview.widget.RobotoButton
-            android:layout_width="match_parent"
-            android:background="@color/PrimaryDark"
-            android:layout_height="70dp"
-            android:gravity="center_vertical|center_horizontal"
-            android:textSize="25sp"
-            android:id="@+id/btn_PRO"
-            android:onClick="openPro"
-            android:text="@string/getPRO" />
-    </LinearLayout>
+        <!--<com.devspark.robototextview.widget.RobotoButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="@color/PrimaryDark"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:gravity="center_vertical|center_horizontal"-->
+            <!--android:textSize="25sp"-->
+            <!--android:id="@+id/btn_PRO"-->
+            <!--android:onClick="openPro"-->
+            <!--android:text="@string/getPRO" />-->
+    <!--</LinearLayout>-->
 
 
 
